@@ -84,6 +84,7 @@ class Program
         }
     }
 
+
     static bool numero(int num, List<Juguete> list)
     {
         foreach (Juguete jugueteLista in list)
