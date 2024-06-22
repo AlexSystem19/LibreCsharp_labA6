@@ -16,6 +16,7 @@ class Juguete
     }
 }
 
+
 class Program
 {
     static void Main(string[] args)
