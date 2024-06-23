@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NETa6;
+using System;
 using System.Collections.Generic;
 
 class Juguete
@@ -57,5 +58,38 @@ class Program
 
         // Si no se encuentra el juguete, mostramos un mensaje
         Console.WriteLine("No se encontró el juguete " + jugueteBuscado);
+
+        /* T A N Q U E */
+
+        //Crear objetos de la clase tanque
+
+        Tanque t1q = new Tanque("TQX-1905", "UCRANIA", 2028);
+        Tanque t2q = new Tanque("TRQ-1115", "SUECIA", 2018);
+        Tanque t3q = new Tanque("TQX-1900", "ALBANIA", 2018);
+        Tanque t4q = new Tanque("TQX-1906", "NORUEGA", 2008);
+        Tanque t5q = new Tanque("TQX-6565", "BRASIL", 2018);
+        Tanque t6q = new Tanque("TQQ-115", "PERU", 2021);
+        Tanque t7q = new Tanque("RQX-8888", "CUBA", 2020);
+        Tanque t8q = new Tanque("ZZS-369", "ARGENTINA", 2008);
+        Tanque t9q = new Tanque("T12-ASW", "BOLIVIA", 2021);
+
+        //modificando datos
+
+        t6q.PaisP = "EEUU";
+        t6q.NombreP = "ZED";
+
+        //imprime infomracion de algunos tanques
+
+        t1q.informacion();
+        t3q.informacion();
+        t6q.informacion();
+        t9q.informacion();
+
+        //simulacion de batalla
+        
+                t1q.Batalla(99, t6q, 101);
+
+        Console.ReadKey();
+
     }
 }
