@@ -64,7 +64,8 @@ namespace NETa6
         {
             string pais_anterior = tanquelocal.PaisP;
             string cambiarpais = Console.ReadLine();
-            
+
+        
             tanquelocal.PaisP = cambiarpais;
             Console.WriteLine($"se cambio el pais a {cambiarpais} , anterior pais {pais_anterior}");
 
