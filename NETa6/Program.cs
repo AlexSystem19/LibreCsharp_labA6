@@ -76,6 +76,10 @@ class Program
         
                 t1q.Batalla(89, t6q, 80);
 
+        t1q.cambiarnacionalidad(t1q);
+        t1q.informacion();
+
+
         Console.ReadKey();
 
     }

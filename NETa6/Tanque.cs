@@ -54,6 +54,21 @@ namespace NETa6
                 Console.WriteLine("Es un Empate de fuerza de armamentos!");
             }
         }
+
+
+
+
+
+
+        public void cambiarnacionalidad(Tanque tanquelocal)
+        {
+            string pais_anterior = tanquelocal.PaisP;
+            string cambiarpais = Console.ReadLine();
+            
+            tanquelocal.PaisP = cambiarpais;
+            Console.WriteLine($"se cambio el pais a {cambiarpais} , anterior pais {pais_anterior}");
+
+        }
     }
 
 
