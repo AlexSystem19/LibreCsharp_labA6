@@ -2,20 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-class Juguete
-{
-    public int numero;
-    public string nombre;
-    public string color;
-    // ... (puedes agregar otras características como material, tamaño, etc.)
 
-    public Juguete(int numero, string nombre, string color)
-    {
-        this.numero = numero;
-        this.nombre = nombre;
-        this.color = color;
-    }
-}
 
 class Program
 {
@@ -87,7 +74,7 @@ class Program
 
         //simulacion de batalla
         
-                t1q.Batalla(99, t6q, 101);
+                t1q.Batalla(89, t6q, 80);
 
         Console.ReadKey();
 

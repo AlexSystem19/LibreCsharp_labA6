@@ -39,7 +39,7 @@ namespace NETa6
         //metodo para simular batalla
         public void Batalla(int fuerzaTanqueLocal, Tanque enemigo, int fuerzaEnemigo)
         {
-            Console.WriteLine($"{NombreP} de {PaisP} esta batallando contra {enemigo.NombreP}");
+            Console.WriteLine($"{NombreP} de {PaisP} esta batallando contra {enemigo.NombreP} del pais de {enemigo.PaisP}");
 
             if(fuerzaTanqueLocal<fuerzaEnemigo)
             {
