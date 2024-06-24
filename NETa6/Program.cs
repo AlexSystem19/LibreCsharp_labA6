@@ -39,9 +39,8 @@ class Program
             opcion = Convert.ToInt32(Console.ReadLine());
             switch (opcion)
             {
-                case 1: con.conversor1();
-                    break;
-                    case 2: con.conversor2(); break;
+                case 1: con.conversor1();break;
+                case 2: con.conversor2(); break;
                 default:Console.WriteLine("reinte con otro numero pf");break ;
             }
             Console.WriteLine("para continuar ingrese 1");
