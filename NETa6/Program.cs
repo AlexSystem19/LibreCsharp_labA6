@@ -47,8 +47,7 @@ class Program
             repetir = Convert.ToInt32(Console.ReadLine());
         } while (repetir == 1 );
     }        
-
-    
+        
     class conversor
     {
         private double velocidad;
