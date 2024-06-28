@@ -91,9 +91,9 @@ class Program
         {
             Console.WriteLine("Ingresa el Dni a buscar");
             int dni = Int32.Parse(Console.ReadLine()); // parsamos el numero de string a int y le pasamos al ametodo que pode un int con el nombre de argumento "dni" este al ingresar al metodo desencadenar todas las tareas las que inlcuye validar y imprimir desde la clase como tal el moeoto pide un argumento en base a ello todo se ejecuta pero tener en cuenta su tipo de ingreso
-            valor = school.buscarPorNombre(dni);// ingresa el dni en una parte del metodo devuelve un true como tal el valor final se cambiaria a true ya que se a iniciado con false ver el valor declarado antes del do el bool valor = false
+            valor = school.buscarPorNombre(dni);// ingresa el dni ,metodo devuelveun BOOL como tal el valor final se cambiaria a true ya que se a iniciado con false ver el valor declarado antes del do el bool valor = false
         }
-        while (valor); // al ser un TRUE termina y esperamos una tecla
+        while (valor); // el VALOR al ser un TRUE termina y esperamos una tecla
         Console.ReadKey(); // funcion que pide una tecla ya que no tiene nada despues termina la ejecucion
     }
 }

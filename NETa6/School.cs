@@ -27,7 +27,7 @@ namespace NETa6
 
         //buscar estudiante
 
-        public bool buscarPorNombre(int dni)               //cremmos un metodo que pida un argumento de tipo string de nombre NAME
+        public bool buscarPorNombre(int dni)               //cremmos un metodo de tipo BOOL que pida un argumento de tipo string de nombre NAME
         {
             bool encontrado = false;                           // declaramos variables en false que servira para terminar el do while
             int i = 0;                                         // contado para avanzar en la lista que se tiene instanciada en STUDENTS
