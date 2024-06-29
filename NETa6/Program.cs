@@ -76,7 +76,7 @@ class Program
         var a4 = new Estudiante() { nombre = "NORMA PURIZACA", edad = 43, dni = 87654321, calificacion = 17.11 };
         var a5 = new Estudiante() { nombre = "FABRIZIO GUTIERREZ", edad = 21, dni = 12345678, calificacion = 15.22 };
         var a6 = new Estudiante() { nombre = "JOAQUIN GUTIERREZ", edad = 23, dni = 45113816, calificacion = 16.55 };
-
+         
         var school = new School(); // instanciamos el constructor de esa manera hereda sus metodos para ser llamados
         school.addStudents(a1);     // al metodo constructor llamamos sus metodos que tiene disponible y le enviamo al que es de tipo añadir estudiante que recibe un argumento de tiop estudiante y la variable son del tipo estudiante el meotodo tiene el proceso de añadirlo en la lista instanciada de tipo estudiante como tal la variable es compatible con la lista
         school.addStudents(a2);     // aplicamos el metodo ADDSTUDENTS de la clase school que ya fue instanciada en una del mismo nombre
