@@ -95,5 +95,6 @@ class Program
         }
         while (valor); // el VALOR al ser un TRUE termina y esperamos una tecla
         Console.ReadKey(); // funcion que pide una tecla ya que no tiene nada despues termina la ejecucion
+
     }
 }
