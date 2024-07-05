@@ -84,7 +84,8 @@ class Program
         school.addStudents(a4);
         school.addStudents(a5);
         school.addStudents(a6);
-
+        
+        
         bool valor = false;
 
         do
